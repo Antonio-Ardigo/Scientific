@@ -64,6 +64,11 @@ def card(article, rank):
     )
     title_html = f'<a href="{url}" target="_blank" rel="noopener">{title}</a>' if url else title
     why_html = f'<p class="why"><span>Why it made the cut</span>{why}</p>' if why else ""
+    read_label = f"Read at {source}" if source else "Read the full article"
+    read_html = (
+        f'<a class="read" href="{url}" target="_blank" rel="noopener">{read_label} &rarr;</a>'
+        if url else ""
+    )
 
     return f"""      <article class="card">
         <div class="rank">{rank:02d}</div>
@@ -72,6 +77,7 @@ def card(article, rank):
           <div class="meta">{meta_bits}</div>
           <p class="abstract">{abstract}</p>
           {why_html}
+          {read_html}
         </div>
       </article>"""
 
@@ -144,6 +150,11 @@ def build_html(date_str, articles, generated_at):
     background: var(--chip); border-radius: 0 8px 8px 0; font-size: 14px; color: var(--muted);
   }}
   .why span {{ display: block; text-transform: uppercase; letter-spacing: .1em; font-size: 10px; font-weight: 700; color: var(--accent); margin-bottom: 3px; }}
+  .read {{
+    display: inline-block; margin-top: 12px; font-size: 14px; font-weight: 600;
+    color: var(--accent); text-decoration: none;
+  }}
+  .read:hover {{ text-decoration: underline; }}
   footer {{ margin-top: 40px; color: var(--muted); font-size: 13px; text-align: center; }}
   .toggle {{
     position: fixed; top: 16px; right: 16px; background: var(--panel); color: var(--ink);
