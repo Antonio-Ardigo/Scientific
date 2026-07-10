@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Science Digest — 2026-07-10</title>
+<style>
+  :root {
+    --bg: #f7f6f3; --panel: #ffffff; --ink: #1a1a1a; --muted: #6b6b6b;
+    --line: #e6e3dc; --accent: #7a5cff; --chip: #f0eef8; --chip-ink: #4a3fb0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14131a; --panel: #1d1b26; --ink: #ece9f5; --muted: #a09cb0;
+      --line: #2c2937; --accent: #a794ff; --chip: #262233; --chip-ink: #c9beff;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #f7f6f3; --panel: #ffffff; --ink: #1a1a1a; --muted: #6b6b6b;
+    --line: #e6e3dc; --accent: #7a5cff; --chip: #f0eef8; --chip-ink: #4a3fb0;
+  }
+  :root[data-theme="dark"] {
+    --bg: #14131a; --panel: #1d1b26; --ink: #ece9f5; --muted: #a09cb0;
+    --line: #2c2937; --accent: #a794ff; --chip: #262233; --chip-ink: #c9beff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { border-bottom: 2px solid var(--line); padding-bottom: 24px; margin-bottom: 8px; }
+  .kicker { letter-spacing: .18em; text-transform: uppercase; font-size: 12px; color: var(--accent); font-weight: 700; }
+  h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; margin: 10px 0 6px; }
+  .sub { color: var(--muted); font-size: 15px; }
+  .sources { color: var(--muted); font-size: 13px; margin-top: 10px; }
+  .card {
+    display: flex; gap: 18px; padding: 26px 0; border-bottom: 1px solid var(--line);
+  }
+  .rank {
+    font-variant-numeric: tabular-nums; font-weight: 800; font-size: 20px;
+    color: var(--accent); min-width: 34px; padding-top: 2px;
+  }
+  .body { flex: 1; min-width: 0; }
+  h2 { font-size: 20px; line-height: 1.3; margin: 0 0 8px; }
+  h2 a { color: var(--ink); text-decoration: none; }
+  h2 a:hover { color: var(--accent); text-decoration: underline; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .chip {
+    background: var(--chip); color: var(--chip-ink); font-size: 12px; font-weight: 600;
+    padding: 3px 9px; border-radius: 999px;
+  }
+  .abstract { margin: 0; color: var(--ink); }
+  .why {
+    margin: 12px 0 0; padding: 10px 14px; border-left: 3px solid var(--accent);
+    background: var(--chip); border-radius: 0 8px 8px 0; font-size: 14px; color: var(--muted);
+  }
+  .why span { display: block; text-transform: uppercase; letter-spacing: .1em; font-size: 10px; font-weight: 700; color: var(--accent); margin-bottom: 3px; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 13px; text-align: center; }
+  .toggle {
+    position: fixed; top: 16px; right: 16px; background: var(--panel); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<button class="toggle" onclick="var r=document.documentElement;r.dataset.theme=(r.dataset.theme==='dark'?'light':'dark');">◐ theme</button>
+<div class="wrap">
+  <header>
+    <div class="kicker">Agentic Science Digest</div>
+    <h1>The week in fundamental science</h1>
+    <div class="sub">Top 15 articles · Friday, July 10, 2026</div>
+    <div class="sources">Scanned: MIT Technology Review · Nature · Nautilus · Quanta Magazine · Science · Scientific American · Symmetry</div>
+  </header>
+  <main>
+      <article class="card">
+        <div class="rank">01</div>
+        <div class="body">
+          <h2><a href="https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/" target="_blank" rel="noopener">For the First Time, a Cell Built From Scratch Grows and Divides</a></h2>
+          <div class="meta"><span class="chip">Quanta Magazine</span><span class="chip">Synthetic biology</span><span class="chip">Jul 1, 2026</span></div>
+          <p class="abstract">Researchers have assembled a synthetic cell that both grows and divides — two hallmarks of life that had never been achieved together in a built-from-scratch system. The result pushes the boundary of what counts as living and shows that quasi-living systems can be engineered in the lab.</p>
+          <p class="why"><span>Why it made the cut</span>A genuine milestone in the decades-long quest to build life from its molecular parts.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">02</div>
+        <div class="body">
+          <h2><a href="https://www.nature.com/articles/s41586-026-10759-2" target="_blank" rel="noopener">Reinforcement Learning Control of Quantum Error Correction</a></h2>
+          <div class="meta"><span class="chip">Nature</span><span class="chip">Quantum computing</span><span class="chip">Jul 2026</span></div>
+          <p class="abstract">A quantum processor now recalibrates itself while it runs, by repurposing the error-detection signals of quantum error correction as a training signal for a reinforcement-learning agent that continuously tunes the control parameters. The approach achieves record logical error rates and stays stable against environmental drift without ever pausing the computation.</p>
+          <p class="why"><span>Why it made the cut</span>Solves the recalibration bottleneck that blocks long quantum algorithms — a real path toward useful machines.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">03</div>
+        <div class="body">
+          <h2><a href="https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/" target="_blank" rel="noopener">Researchers Reveal the Power of &#x27;Quantum Proofs&#x27;</a></h2>
+          <div class="meta"><span class="chip">Quanta Magazine</span><span class="chip">Computational complexity</span><span class="chip">Jul 6, 2026</span></div>
+          <p class="abstract">When you want to verify that an answer to certain problems is correct, new work shows there is no shortcut around the full complexity of the quantum world. The finding sharpens the map of what quantum verification can and cannot buy you over classical checking.</p>
+          <p class="why"><span>Why it made the cut</span>A deep complexity-theory result with implications for how we trust quantum computations.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">04</div>
+        <div class="body">
+          <h2><a href="https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/" target="_blank" rel="noopener">Astrophysicists Puzzle Over Webb&#x27;s New Universe</a></h2>
+          <div class="meta"><span class="chip">Quanta Magazine</span><span class="chip">Astrophysics</span><span class="chip">Jul 2, 2026</span></div>
+          <p class="abstract">The James Webb Space Telescope keeps finding early black holes and galaxies that look too big, too bright, and too mature for their age. Theorists are now floating several competing frameworks to explain a cosmic dawn that does not match expectations.</p>
+          <p class="why"><span>Why it made the cut</span>The observations that are quietly forcing a rethink of early-universe cosmology.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">05</div>
+        <div class="body">
+          <h2><a href="https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/" target="_blank" rel="noopener">We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.</a></h2>
+          <div class="meta"><span class="chip">Quanta Magazine</span><span class="chip">Fluid dynamics</span><span class="chip">Jul 10, 2026</span></div>
+          <p class="abstract">Physicists long assumed that only elastic, complex fluids could crack like a solid. New experiments show a crack propagating through an ordinary, nonelastic simple fluid — overturning the idea that elasticity is what lets a liquid fracture.</p>
+          <p class="why"><span>Why it made the cut</span>A clean, surprising result that rewrites a textbook assumption about how liquids break.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">06</div>
+        <div class="body">
+          <h2><a href="https://www.science.org/doi/10.1126/science.aeb6744" target="_blank" rel="noopener">Leaping Out of the Water: Aerial-Aquatic Locomotion With Flapping Wings</a></h2>
+          <div class="meta"><span class="chip">Science</span><span class="chip">Robotics</span><span class="chip">Jul 2026</span></div>
+          <p class="abstract">An untethered flapping-wing robot bursts from the water&#x27;s surface and transitions from swimming to flight in a single continuous motion. The team dissects how wing design, flexibility, power, and leg thrust combine to make the water-to-air leap work, pointing toward cheap machines that could inspect infrastructure or monitor water quality.</p>
+          <p class="why"><span>Why it made the cut</span>Science&#x27;s cover story — bio-inspired robotics pulling off a genuinely hard transition.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">07</div>
+        <div class="body">
+          <h2><a href="https://www.scientificamerican.com/article/dark-comets-sprouting-tails-could-help-solve-interstellar-mysteries/" target="_blank" rel="noopener">Astronomers Catch a &#x27;Dark&#x27; Comet by the Tail</a></h2>
+          <div class="meta"><span class="chip">Scientific American</span><span class="chip">Planetary science</span><span class="chip">Jul 10, 2026</span></div>
+          <p class="abstract">A newly recognized class of faint &#x27;dark&#x27; comets has been caught sprouting tails, and the discovery may finally explain the odd, non-gravitational acceleration of interstellar visitor &#x27;Oumuamua. The objects could also inform which worlds end up habitable.</p>
+          <p class="why"><span>Why it made the cut</span>A fresh handle on one of the decade&#x27;s biggest small-body mysteries.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">08</div>
+        <div class="body">
+          <h2><a href="https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599" target="_blank" rel="noopener">We May Owe Our Intelligence to Our Unique Neurons</a></h2>
+          <div class="meta"><span class="chip">Nautilus</span><span class="chip">Neuroscience</span><span class="chip">Jul 2026</span></div>
+          <p class="abstract">Human cortical neurons behave differently from those of other animals, and new research suggests their distinctive electrical properties may be part of what makes human cognition so powerful. The piece weighs how much of our intelligence is wiring versus cellular hardware.</p>
+          <p class="why"><span>Why it made the cut</span>Pushes the &#x27;what makes human brains special&#x27; question down to the level of single cells.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">09</div>
+        <div class="body">
+          <h2><a href="https://www.quantamagazine.org/is-life-just-different-20260708/" target="_blank" rel="noopener">Is Life Just Different?</a></h2>
+          <div class="meta"><span class="chip">Quanta Magazine</span><span class="chip">Biology &amp; philosophy</span><span class="chip">Jul 8, 2026</span></div>
+          <p class="abstract">The idea of biological agency — that organisms set their own goals and act on them — is reshaping arguments over how to define life. This essay asks whether treating agency as fundamental clarifies biology or smuggles in metaphysics that science can&#x27;t use.</p>
+          <p class="why"><span>Why it made the cut</span>A thoughtful entry in the live debate over what a definition of life is even for.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">10</div>
+        <div class="body">
+          <h2><a href="https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/" target="_blank" rel="noopener">Anthropic Found a Hidden Space Where Claude Puzzles Over Concepts</a></h2>
+          <div class="meta"><span class="chip">MIT Technology Review</span><span class="chip">Artificial intelligence</span><span class="chip">Jul 9, 2026</span></div>
+          <p class="abstract">A new interpretability technique let researchers probe deeper than before into how a large language model represents and manipulates concepts internally, revealing a &#x27;space&#x27; where the model appears to work through ideas. It&#x27;s another step toward understanding the still-opaque machinery of modern AI.</p>
+          <p class="why"><span>Why it made the cut</span>Interpretability is the field&#x27;s frontier — concrete progress on seeing inside an LLM.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">11</div>
+        <div class="body">
+          <h2><a href="https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/" target="_blank" rel="noopener">China&#x27;s Long March 10B Rocket Successfully Launches and Lands</a></h2>
+          <div class="meta"><span class="chip">Scientific American</span><span class="chip">Spaceflight</span><span class="chip">Jul 10, 2026</span></div>
+          <p class="abstract">China flew its Long March 10B for the first time and recovered the first-stage booster, demonstrating reusable rocketry that sharpens its spaceflight rivalry with the United States. The milestone signals a maturing capability beyond SpaceX&#x27;s near-monopoly on booster recovery.</p>
+          <p class="why"><span>Why it made the cut</span>Reusability is the economic hinge of spaceflight; a second nation reaching it matters.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">12</div>
+        <div class="body">
+          <h2><a href="https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/" target="_blank" rel="noopener">A Device That Revives Eyeballs From Dead Donors Could Make Eye Transplants Possible</a></h2>
+          <div class="meta"><span class="chip">MIT Technology Review</span><span class="chip">Biotechnology</span><span class="chip">Jul 3, 2026</span></div>
+          <p class="abstract">A new perfusion device can restore function to eyes recovered from deceased donors, keeping the delicate tissue viable and moving whole-eye transplantation from science fiction toward a plausible clinical goal. The work joins a wave of organ-revival research reopening what counts as recoverable.</p>
+          <p class="why"><span>Why it made the cut</span>Whole-eye transplant has been a hard &#x27;never&#x27; in medicine; this chips at it.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">13</div>
+        <div class="body">
+          <h2><a href="https://www.scientificamerican.com/article/odds-of-a-super-el-nino-are-rising-and-that-could-have-deadly-consequences/" target="_blank" rel="noopener">The Odds of a Super El Niño Just Got Higher</a></h2>
+          <div class="meta"><span class="chip">Scientific American</span><span class="chip">Climate</span><span class="chip">Jul 10, 2026</span></div>
+          <p class="abstract">Forecasters now put rising odds on a &#x27;super&#x27; El Niño, a state of the tropical Pacific tied to more intense typhoons and to famine and wildfire risk around the world. The piece lays out what a strong event would mean for the coming season.</p>
+          <p class="why"><span>Why it made the cut</span>A near-term, high-stakes forecast with concrete humanitarian consequences.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">14</div>
+        <div class="body">
+          <h2><a href="https://nautil.us/was-this-fossil-creature-the-first-right-hander-ever-1282619" target="_blank" rel="noopener">Was This Fossil Creature the First Right-Hander Ever?</a></h2>
+          <div class="meta"><span class="chip">Nautilus</span><span class="chip">Paleontology</span><span class="chip">Jul 2026</span></div>
+          <p class="abstract">A half-billion-year-old organism appears to have consistently bent to the right, hinting that behavioral handedness — a bias long thought recent — may reach all the way back to the Cambrian. The find offers a rare window onto the origins of body asymmetry.</p>
+          <p class="why"><span>Why it made the cut</span>Turns a quirk of human biology into a deep-time evolutionary question.</p>
+        </div>
+      </article>
+      <article class="card">
+        <div class="rank">15</div>
+        <div class="body">
+          <h2><a href="https://www.symmetrymagazine.org/article/curiouser-and-curiouser-a-riddle-at-the-alice-detector" target="_blank" rel="noopener">Curiouser and Curiouser: A Riddle at the ALICE Detector</a></h2>
+          <div class="meta"><span class="chip">Symmetry</span><span class="chip">Particle physics</span><span class="chip">Dec 2025 (latest on Symmetry)</span></div>
+          <p class="abstract">A mysterious signal at the LHC&#x27;s ALICE experiment briefly seemed to threaten physicists&#x27; understanding, sending collaborators scrambling to explain it as the machine wrapped a lead-ion run. The story is a look inside how anomalies are chased down in big-collider physics.</p>
+          <p class="why"><span>Why it made the cut</span>The best of what Symmetry is currently running — an inside view of anomaly-hunting.</p>
+        </div>
+      </article>
+  </main>
+  <footer>
+    Generated 2026-07-10 19:11 UTC by the <code>/scan-journals</code> agent · abstracts are AI summaries; follow the links for the originals.
+  </footer>
+</div>
+</body>
+</html>

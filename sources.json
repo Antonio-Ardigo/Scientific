@@ -1,0 +1,71 @@
+{
+  "description": "Curated science journals & magazines scanned by the /scan-journals command.",
+  "sources": [
+    {
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/",
+      "beat": "Math, theoretical physics, CS, fundamental research",
+      "note": "The gold standard for depth. Free online."
+    },
+    {
+      "name": "Aeon",
+      "url": "https://aeon.co/",
+      "beat": "Science woven with philosophy and culture; long-form essays",
+      "note": "Sister site Psyche (https://psyche.co/) covers mind & meaning."
+    },
+    {
+      "name": "Nautilus",
+      "url": "https://nautil.us/",
+      "beat": "Single-theme issues connecting physics, biology, philosophy",
+      "note": "Literary style."
+    },
+    {
+      "name": "American Scientist",
+      "url": "https://www.americanscientist.org/",
+      "beat": "Written by working scientists",
+      "note": "A notch more technical."
+    },
+    {
+      "name": "Symmetry",
+      "url": "https://www.symmetrymagazine.org/",
+      "beat": "Particle physics (Fermilab/SLAC)",
+      "note": ""
+    },
+    {
+      "name": "Nature (news)",
+      "url": "https://www.nature.com/news",
+      "beat": "The journal's journalism arm",
+      "note": "Most current on real research."
+    },
+    {
+      "name": "Science (news)",
+      "url": "https://www.science.org/news",
+      "beat": "The journal's journalism arm",
+      "note": "Most current on real research."
+    },
+    {
+      "name": "Scientific American",
+      "url": "https://www.scientificamerican.com/",
+      "beat": "Broad general science (since 1845)",
+      "note": "Accessible."
+    },
+    {
+      "name": "New Scientist",
+      "url": "https://www.newscientist.com/",
+      "beat": "UK weekly; strong general news coverage",
+      "note": ""
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/",
+      "beat": "Tech and society",
+      "note": ""
+    },
+    {
+      "name": "Undark",
+      "url": "https://undark.org/",
+      "beat": "Science, policy, and investigative journalism",
+      "note": ""
+    }
+  ]
+}

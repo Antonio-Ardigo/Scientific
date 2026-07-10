@@ -1,0 +1,141 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10 19:11 UTC",
+  "articles": [
+    {
+      "title": "For the First Time, a Cell Built From Scratch Grows and Divides",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "published": "Jul 1, 2026",
+      "topic": "Synthetic biology",
+      "abstract": "Researchers have assembled a synthetic cell that both grows and divides — two hallmarks of life that had never been achieved together in a built-from-scratch system. The result pushes the boundary of what counts as living and shows that quasi-living systems can be engineered in the lab.",
+      "why": "A genuine milestone in the decades-long quest to build life from its molecular parts."
+    },
+    {
+      "title": "Reinforcement Learning Control of Quantum Error Correction",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10759-2",
+      "published": "Jul 2026",
+      "topic": "Quantum computing",
+      "abstract": "A quantum processor now recalibrates itself while it runs, by repurposing the error-detection signals of quantum error correction as a training signal for a reinforcement-learning agent that continuously tunes the control parameters. The approach achieves record logical error rates and stays stable against environmental drift without ever pausing the computation.",
+      "why": "Solves the recalibration bottleneck that blocks long quantum algorithms — a real path toward useful machines."
+    },
+    {
+      "title": "Researchers Reveal the Power of 'Quantum Proofs'",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/researchers-reveal-the-power-of-quantum-proofs-20260706/",
+      "published": "Jul 6, 2026",
+      "topic": "Computational complexity",
+      "abstract": "When you want to verify that an answer to certain problems is correct, new work shows there is no shortcut around the full complexity of the quantum world. The finding sharpens the map of what quantum verification can and cannot buy you over classical checking.",
+      "why": "A deep complexity-theory result with implications for how we trust quantum computations."
+    },
+    {
+      "title": "Astrophysicists Puzzle Over Webb's New Universe",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "published": "Jul 2, 2026",
+      "topic": "Astrophysics",
+      "abstract": "The James Webb Space Telescope keeps finding early black holes and galaxies that look too big, too bright, and too mature for their age. Theorists are now floating several competing frameworks to explain a cosmic dawn that does not match expectations.",
+      "why": "The observations that are quietly forcing a rethink of early-universe cosmology."
+    },
+    {
+      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture.",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
+      "published": "Jul 10, 2026",
+      "topic": "Fluid dynamics",
+      "abstract": "Physicists long assumed that only elastic, complex fluids could crack like a solid. New experiments show a crack propagating through an ordinary, nonelastic simple fluid — overturning the idea that elasticity is what lets a liquid fracture.",
+      "why": "A clean, surprising result that rewrites a textbook assumption about how liquids break."
+    },
+    {
+      "title": "Leaping Out of the Water: Aerial-Aquatic Locomotion With Flapping Wings",
+      "source": "Science",
+      "url": "https://www.science.org/doi/10.1126/science.aeb6744",
+      "published": "Jul 2026",
+      "topic": "Robotics",
+      "abstract": "An untethered flapping-wing robot bursts from the water's surface and transitions from swimming to flight in a single continuous motion. The team dissects how wing design, flexibility, power, and leg thrust combine to make the water-to-air leap work, pointing toward cheap machines that could inspect infrastructure or monitor water quality.",
+      "why": "Science's cover story — bio-inspired robotics pulling off a genuinely hard transition."
+    },
+    {
+      "title": "Astronomers Catch a 'Dark' Comet by the Tail",
+      "source": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/dark-comets-sprouting-tails-could-help-solve-interstellar-mysteries/",
+      "published": "Jul 10, 2026",
+      "topic": "Planetary science",
+      "abstract": "A newly recognized class of faint 'dark' comets has been caught sprouting tails, and the discovery may finally explain the odd, non-gravitational acceleration of interstellar visitor 'Oumuamua. The objects could also inform which worlds end up habitable.",
+      "why": "A fresh handle on one of the decade's biggest small-body mysteries."
+    },
+    {
+      "title": "We May Owe Our Intelligence to Our Unique Neurons",
+      "source": "Nautilus",
+      "url": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599",
+      "published": "Jul 2026",
+      "topic": "Neuroscience",
+      "abstract": "Human cortical neurons behave differently from those of other animals, and new research suggests their distinctive electrical properties may be part of what makes human cognition so powerful. The piece weighs how much of our intelligence is wiring versus cellular hardware.",
+      "why": "Pushes the 'what makes human brains special' question down to the level of single cells."
+    },
+    {
+      "title": "Is Life Just Different?",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/is-life-just-different-20260708/",
+      "published": "Jul 8, 2026",
+      "topic": "Biology & philosophy",
+      "abstract": "The idea of biological agency — that organisms set their own goals and act on them — is reshaping arguments over how to define life. This essay asks whether treating agency as fundamental clarifies biology or smuggles in metaphysics that science can't use.",
+      "why": "A thoughtful entry in the live debate over what a definition of life is even for."
+    },
+    {
+      "title": "Anthropic Found a Hidden Space Where Claude Puzzles Over Concepts",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "published": "Jul 9, 2026",
+      "topic": "Artificial intelligence",
+      "abstract": "A new interpretability technique let researchers probe deeper than before into how a large language model represents and manipulates concepts internally, revealing a 'space' where the model appears to work through ideas. It's another step toward understanding the still-opaque machinery of modern AI.",
+      "why": "Interpretability is the field's frontier — concrete progress on seeing inside an LLM."
+    },
+    {
+      "title": "China's Long March 10B Rocket Successfully Launches and Lands",
+      "source": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/chinas-long-march-10b-rocket-successfully-launches-and-lands-in-a-global-spaceflight-milestone/",
+      "published": "Jul 10, 2026",
+      "topic": "Spaceflight",
+      "abstract": "China flew its Long March 10B for the first time and recovered the first-stage booster, demonstrating reusable rocketry that sharpens its spaceflight rivalry with the United States. The milestone signals a maturing capability beyond SpaceX's near-monopoly on booster recovery.",
+      "why": "Reusability is the economic hinge of spaceflight; a second nation reaching it matters."
+    },
+    {
+      "title": "A Device That Revives Eyeballs From Dead Donors Could Make Eye Transplants Possible",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
+      "published": "Jul 3, 2026",
+      "topic": "Biotechnology",
+      "abstract": "A new perfusion device can restore function to eyes recovered from deceased donors, keeping the delicate tissue viable and moving whole-eye transplantation from science fiction toward a plausible clinical goal. The work joins a wave of organ-revival research reopening what counts as recoverable.",
+      "why": "Whole-eye transplant has been a hard 'never' in medicine; this chips at it."
+    },
+    {
+      "title": "The Odds of a Super El Niño Just Got Higher",
+      "source": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/odds-of-a-super-el-nino-are-rising-and-that-could-have-deadly-consequences/",
+      "published": "Jul 10, 2026",
+      "topic": "Climate",
+      "abstract": "Forecasters now put rising odds on a 'super' El Niño, a state of the tropical Pacific tied to more intense typhoons and to famine and wildfire risk around the world. The piece lays out what a strong event would mean for the coming season.",
+      "why": "A near-term, high-stakes forecast with concrete humanitarian consequences."
+    },
+    {
+      "title": "Was This Fossil Creature the First Right-Hander Ever?",
+      "source": "Nautilus",
+      "url": "https://nautil.us/was-this-fossil-creature-the-first-right-hander-ever-1282619",
+      "published": "Jul 2026",
+      "topic": "Paleontology",
+      "abstract": "A half-billion-year-old organism appears to have consistently bent to the right, hinting that behavioral handedness — a bias long thought recent — may reach all the way back to the Cambrian. The find offers a rare window onto the origins of body asymmetry.",
+      "why": "Turns a quirk of human biology into a deep-time evolutionary question."
+    },
+    {
+      "title": "Curiouser and Curiouser: A Riddle at the ALICE Detector",
+      "source": "Symmetry",
+      "url": "https://www.symmetrymagazine.org/article/curiouser-and-curiouser-a-riddle-at-the-alice-detector",
+      "published": "Dec 2025 (latest on Symmetry)",
+      "topic": "Particle physics",
+      "abstract": "A mysterious signal at the LHC's ALICE experiment briefly seemed to threaten physicists' understanding, sending collaborators scrambling to explain it as the machine wrapped a lead-ion run. The story is a look inside how anomalies are chased down in big-collider physics.",
+      "why": "The best of what Symmetry is currently running — an inside view of anomaly-hunting."
+    }
+  ]
+}
